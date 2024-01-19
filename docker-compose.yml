@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  t1:
+    image: 't1:latest'
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    container_name: t1-test
